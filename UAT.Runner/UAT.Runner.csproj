@@ -90,12 +90,34 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Calculator.feature.cs</LastGenOutput>
     </None>
+    <None Include="Html\css\fonts\fontawesome-webfont.eot" />
+    <None Include="Html\css\fonts\fontawesome-webfont.ttf" />
+    <None Include="Html\css\fonts\fontawesome-webfont.woff" />
+    <None Include="Html\css\fonts\FontAwesome.ttf" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="PowerShell\PublishHtml.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TestData\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Html\Calculator\Calculator.html" />
+    <Content Include="Html\Calculator\index.html" />
+    <Content Include="Html\css\font-awesome.css" />
+    <Content Include="Html\css\fonts\fontawesome-webfont.svg" />
+    <Content Include="Html\css\global.css" />
+    <Content Include="Html\css\master.css" />
+    <Content Include="Html\css\print.css" />
+    <Content Include="Html\css\reset.css" />
+    <Content Include="Html\css\structure.css" />
+    <Content Include="Html\img\failure.png" />
+    <Content Include="Html\img\inconclusive.png" />
+    <Content Include="Html\img\success.png" />
+    <Content Include="Html\index.html" />
+    <Content Include="Html\js\jquery.js" />
+    <Content Include="Html\js\scripts.js" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

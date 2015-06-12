@@ -1,7 +1,8 @@
-﻿Feature: Calculator
-	In order to prove this project works
-	As a developer
-	I want to be able to use http://www.calculator.net/
+﻿Feature: Calculator 
+	In order to prove this project works,
+	As a developer,
+	I want to be able to use http://www.calculator.net/	
+	
 
 @exampleScenarios
 Scenario Outline: Add two numbers
@@ -12,6 +13,7 @@ Scenario Outline: Add two numbers
 
 	Examples:
 	| answer | p0 | p1 |
-	| 5		 | 1 | 4 |
-	| 7		 | 2 | 5 |
-	| 9		 | 3 | 6 |
+	| 5      | 1  | 4  |
+	| 7      | 2  | 5  |
+	| 9      | 3  | 6  |
+	| 11     | 5  | 6  |
