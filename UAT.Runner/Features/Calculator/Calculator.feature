@@ -17,3 +17,4 @@ Scenario Outline: Add two numbers
 	| 7      | 2  | 5  |
 	| 9      | 3  | 6  |
 	| 11     | 5  | 6  |
+	| 13     | 4  | 9  |

@@ -93,6 +93,8 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="PowerShell\ExecuteAllAndGenerateDox.ps1" />
+    <None Include="PowerShell\ExecuteTestsWithOutput.ps1" />
     <None Include="PowerShell\PublishHtml.ps1" />
   </ItemGroup>
   <ItemGroup>

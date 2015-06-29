@@ -37,6 +37,11 @@ jsonPWrapper ({
                       "11",
                       "5",
                       "6"
+                    ],
+                    [
+                      "13",
+                      "4",
+                      "9"
                     ]
                   ]
                 }
@@ -70,24 +75,25 @@ jsonPWrapper ({
               "@exampleScenarios"
             ],
             "Result": {
-              "WasExecuted": false,
-              "WasSuccessful": false
+              "WasExecuted": true,
+              "WasSuccessful": true
             }
           }
         ],
         "Result": {
-          "WasExecuted": false,
-          "WasSuccessful": false
+          "WasExecuted": true,
+          "WasSuccessful": true
         },
         "Tags": []
       },
       "Result": {
-        "WasExecuted": false,
-        "WasSuccessful": false
+        "WasExecuted": true,
+        "WasSuccessful": true
       }
     }
   ],
   "Configuration": {
-    "GeneratedOn": "12 June 2015 11:19:51"
+    "SutName": "UAT.Runner",
+    "GeneratedOn": "29 June 2015 12:27:05"
   }
 });
