@@ -10,10 +10,10 @@ namespace UAT.Runner.CommonSteps
     [Binding]
     public class NavigationSteps
     {
-        [Given]
-        public void Given_I_am_on_the_calculator_home_page()
+        [Given(@"I want to navigate to (.*)")]
+        public void Given_I_want_to_navigate_to(string pageValue)
         {
-            WebBrowser.Current.GoToNoWait("http://www.calculator.net/");
+            WebBrowser.Current.GoToNoWait(pageValue);
         }
 
     }

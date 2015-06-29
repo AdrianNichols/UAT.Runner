@@ -81,7 +81,7 @@ namespace UAT.Runner.Features.Calculator
 #line 8
 this.ScenarioSetup(scenarioInfo);
 #line 9
- testRunner.Given("I am on the calculator home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I want to navigate to http://www.calculator.net/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
  testRunner.And(string.Format("I have entered the formula {0} + {1}", p0, p1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 11
@@ -169,7 +169,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 23
 this.ScenarioSetup(scenarioInfo);
 #line 24
- testRunner.Given("I am on the calculator home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I want to navigate to http://www.calculator.net/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 25
  testRunner.And(string.Format("I have entered the formula {0} - {1}", p0, p1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 26
@@ -231,7 +231,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 37
 this.ScenarioSetup(scenarioInfo);
 #line 38
- testRunner.Given("I am on the calculator home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I want to navigate to http://www.calculator.net/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 39
  testRunner.And(string.Format("I have entered the formula {0} - {1}", p0, p1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 40
