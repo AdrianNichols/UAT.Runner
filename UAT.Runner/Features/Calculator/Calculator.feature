@@ -3,11 +3,12 @@
 	As a developer,
 	I want to be able to use http://www.calculator.net/	
 	
+Background:
+	Given I want to navigate to http://www.calculator.net/
 
 @exampleScenarios
 Scenario Outline: Add two numbers
-	Given I want to navigate to http://www.calculator.net/
-	And I have entered the formula <p0> + <p1> 
+	Given I have entered the formula <p0> + <p1> 
 	When I press equals
 	Then the result should be <answer> on the screen
 
@@ -21,8 +22,7 @@ Scenario Outline: Add two numbers
 
 @exampleScenarios
 Scenario Outline: Subtract one number from another
-	Given I want to navigate to http://www.calculator.net/
-	And I have entered the formula <p0> - <p1> 
+	Given I have entered the formula <p0> - <p1> 
 	When I press equals
 	Then the result should be <answer> on the screen
 
@@ -35,8 +35,7 @@ Scenario Outline: Subtract one number from another
 	
 @exampleScenarios
 Scenario Outline: Subtract one number from another badly
-	Given I want to navigate to http://www.calculator.net/
-	And I have entered the formula <p0> - <p1> 
+	Given I have entered the formula <p0> - <p1> 
 	When I press equals
 	Then the result should be <answer> on the screen
 

@@ -25,7 +25,7 @@ namespace UAT.Runner {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("FireFox")]
+        [global::System.Configuration.DefaultSettingValueAttribute("IE")]
         public string Browser {
             get {
                 return ((string)(this["Browser"]));
