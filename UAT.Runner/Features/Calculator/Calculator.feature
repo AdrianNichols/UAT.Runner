@@ -18,3 +18,28 @@ Scenario Outline: Add two numbers
 	| 9      | 3  | 6  |
 	| 11     | 5  | 6  |
 	| 13     | 4  | 9  |
+
+@exampleScenarios
+Scenario Outline: Subtract one number from another
+	Given I am on the calculator home page
+	And I have entered the formula <p0> - <p1> 
+	When I press equals
+	Then the result should be <answer> on the screen
+
+	Examples:
+	| answer | p0 | p1 |
+	| 4      | 5  | 1  |
+	| 2      | 7  | 5  |
+	| 6      | 9  | 3  |
+
+	
+@exampleScenarios
+Scenario Outline: Subtract one number from another badly
+	Given I am on the calculator home page
+	And I have entered the formula <p0> - <p1> 
+	When I press equals
+	Then the result should be <answer> on the screen
+
+	Examples:
+	| answer | p0 | p1 |
+	| 4      | 6  | 1  |

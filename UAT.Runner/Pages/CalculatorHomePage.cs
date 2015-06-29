@@ -11,6 +11,7 @@ namespace UAT.Runner.Pages
     {
         private const string NUM_ON_CLICK = "r({0})";
         private const string PLUS_ON_CLICK = "r('+')";
+        private const string MINUS_ON_CLICK = "r('-')";
         private const string EQUALS_ON_CLICK = "r('=')";
         private const string CALC_ANSWER_ID = "sciOutPut";
 
@@ -29,6 +30,14 @@ namespace UAT.Runner.Pages
             get
             {
                 return CalcButton(PLUS_ON_CLICK);
+            }
+        }
+
+        internal Span MinusButton
+        {
+            get
+            {
+                return CalcButton(MINUS_ON_CLICK);
             }
         }
 

@@ -22,6 +22,16 @@ namespace UAT.Runner.Features.Calculator
             _page.NumberButton(p1).ClickNoWait();
         }
 
+        [Given(@"I have entered the formula (.*) \- (.*)")]
+        public void Given_I_have_entered_the_formula_P0_P1(int p0, int p1)
+        {
+            _page.NumberButton(p0).ClickNoWait();
+            _page.MinusButton.ClickNoWait();
+            _page.NumberButton(p1).ClickNoWait();
+            
+        }
+
+
         [When(@"I press equals")]
         public void WhenIPressEquals()
         {
