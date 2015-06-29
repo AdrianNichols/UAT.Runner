@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 using WatiN.Core;
+using WatiN.Core.Native.Chrome;
 
 namespace UAT.Runner
 {
@@ -16,11 +17,15 @@ namespace UAT.Runner
         {
             get
             {
-                return MustFix;
+                switch (Settings.Default.Browser) {
+                    case "FireFox": return FireFoxBrowser;
+                    case "IE": return IEBrowser;
+                    default: return IEBrowser;
+                };
             }
         }
 
-        public static FireFox ShouldFox
+        public static FireFox FireFoxBrowser
         {
             get
             {
@@ -35,7 +40,7 @@ namespace UAT.Runner
             }
         }
 
-        public static IE MustFix
+        public static IE IEBrowser
         {
             get
             {
