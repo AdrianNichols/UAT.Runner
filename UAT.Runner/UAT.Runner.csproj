@@ -78,6 +78,11 @@
     <Compile Include="Hooks\ScenarioBeforeAndAfter.cs" />
     <Compile Include="Pages\CalculatorHomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="WebBrowser.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +101,10 @@
     <None Include="PowerShell\ExecuteAllAndGenerateDox.ps1" />
     <None Include="PowerShell\ExecuteTestsWithOutput.ps1" />
     <None Include="PowerShell\PublishHtml.ps1" />
+    <None Include="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TestData\" />
